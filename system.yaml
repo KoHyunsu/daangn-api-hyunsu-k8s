@@ -19,7 +19,7 @@ spec:
         app.kubernetes.io/name: app-scg
     spec:
       containers:
-      - image: sce06147/project-daangn-sre
+      - image: sce06147/project-daangn-sre:arm64
         imagePullPolicy: Always
         name: app-scg
         ports:
